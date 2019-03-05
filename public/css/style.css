@@ -6,7 +6,7 @@ body{
 
 }
 h1,h2,h3,h4,h5,p{
-  font-family: 'Poppins', sans-serif;
+ font-family: 'Anton', sans-serif;
   color: gray;
   
 }
@@ -41,14 +41,20 @@ p{
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 16px;
   color: #0BB4C2;
   display: block;
-  transition: 0.3s;
+  transition: 0.1s;
+  
+   border-width: 0;
 }
 
 .sidebar a:hover {
   color: #f1f1f1;
+  border-bottom: 2px solid #078bff;
+  transition: .2s;
+  border-width:80%;
+  background-color: rgba(0,123,255,.25);; 
 }
 
 .sidebar .closebtn {
@@ -90,26 +96,27 @@ p{
 
 
 .carousel{
-	margin-top: -200px;
+	
 	z-index: 10;
   width: 100%;
-  height: 900px;
+  height: 600px;
   overflow: hidden;
 }
 .carousel-caption{
-  padding-bottom: 200px;
+  position: fixed;
+  top: 200px;
 }
 
 .carousel-item h1{
 
- -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+
 font-size: 54px;
 color: white;
+font-family: 'Anton', sans-serif;
 }
 .carousel-item p{
   color: white;
+  font-family: 'Anton', sans-serif;
 }
 .carousel ol li{
   height: 50px;
@@ -241,22 +248,43 @@ color: white;
 
 }
 .logo h1{
+color: #dc3545;
+font-family: 'Anton', sans-serif;
+letter-spacing: 5px;
+font-size: 30px;
+}
+.logo h1 span{
 color: yellow;
+color: #078bff;
 
-font-family: 'Merienda', cursive;
 }
 .welcome{
-font-family: 'Kaushan Script', cursive;
+font-family: 'Anton', sans-serif;
 
+text-transform: uppercase;
+}
+.welcome h3{
+ color: #ffc107; 
+}
+.welcome h3 span{
+  color: rgba(41,184,229,1);
+}
+.welcome p{
+  font-size: 14px;
+  font-family: 'Gruppo', cursive;
 }
 /*rooms section*/
 .card{
   width: 100%;
   overflow: hidden;
   height: 200px;
+  border-radius: 0;
+  margin-bottom: 20px;
 }
+
 .rooms img{
 transition: transform .5s;
+border-radius: 0;
 }
 
 .rooms img:hover{
@@ -264,6 +292,22 @@ transition: transform .5s;
   transform: scale(1.5);
 }
 
+.service{
+  font-family: 'Anton', sans-serif;
+
+text-transform: uppercase;
+}
+.service h3{
+  color: #ffc107; 
+}
+.service h3 span{
+   color: rgba(41,184,229,1);; 
+}
+
+.service p{
+  font-size: 14px;
+  font-family: 'Gruppo', cursive;
+}
 .list-group-item{
   height: 100px;
   margin-bottom: 5px;
@@ -284,7 +328,19 @@ transition: transform .5s;
   height: auto;
   background-color: #1dc2f8;
   padding-bottom: 10px;
-  
+  text-transform: uppercase;
+   /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1547897064-702dfaf930a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1575&q=80");
+
+  /* Set a specific height */
+  height: auto; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: green;
 }
 
 .heartbeat {
@@ -401,9 +457,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', end
    transition: transform .5s;
 }
 .roundimage img:hover{
-  transform: scale(1.5);
+  transform: scale(2.5);
+}
+.plaseof{
+   font-family: 'Anton', sans-serif;
+
+    text-transform: uppercase;
 }
 
+.plaseof h3{
+  color: rgb(255, 193, 7);;
+}
+.plaseof span{
+  color: rgba(41,184,229,1);
+}
+.plaseof p{
+  font-size: 14px;
+    font-family: 'Gruppo', cursive;
+}
 .plase{
   height: 200px;
   overflow: hidden;
@@ -653,12 +724,17 @@ section .section-title {
 }
 /*contact page*/
 .topimage{
-  height: 200px;
-  background-image: url(https://as2.ftcdn.net/jpg/02/17/18/39/500_F_217183980_cDQXPSoTlqJ9MotHHLecvVF36FlFyFBR.jpg);
+  height: 400px;
+  background-image: url(https://images.unsplash.com/photo-1499676277068-4f353b14870b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80);
  
-  background-size: cover;
-  background-position: center;
+  /* Set a specific height */
+   
+
+  /* Create the parallax scrolling effect */
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -739,7 +815,7 @@ float: left;
   }
   .carousel-inner{
     height: 300px;
-    margin-top: 100px;
+   
     background-attachment: cover;
   }
   .logo{
@@ -754,6 +830,23 @@ float: left;
     right: 0;
 
   }
+
+  .carousel{
+  
+  z-index: 10;
+  width: 100%;
+ margin-top: -100px;
+ background-attachment: fixed;
+
+}
+.carousel-caption{
+  position: fixed;
+  top: 100px;
+
+}
+.carousel ol li{
+  display: n
+}
 }
 
 /*contact page*/
@@ -772,7 +865,7 @@ float: left;
 .cab{
   width: 100%;
   height: 150px;
-  background-color: red;
+  background-color: rgba(0,123,255,.25);;
   padding: 10px;
 
 }
@@ -1001,4 +1094,56 @@ h4.row.mega-title {
   content: "";
   display: table;
   clear: both;
+}
+.list-group-item-action h4{
+color: #ffc107;
+font-size: 16px;
+}
+
+.tracking-in-contract-bck {
+  -webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-3-5 15:46:44
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-contract-bck
+ * ----------------------------------------
+ */
+@-webkit-keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+            transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+            transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
 }

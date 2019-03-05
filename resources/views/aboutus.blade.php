@@ -13,7 +13,7 @@
 				<img src="https://visituva.lk/Hotel/1551099596IMG_20190225_121938.jpg" width="100%">
 			</div>
 			<div class="midpart">
-				<h3> Room No 1</h3>
+				<h3> Hotel 1</h3>
 				<p>large rooms with three beds</p>
 				
 			</div>
@@ -30,7 +30,7 @@
 				<img src="images/8.jpg" width="100%">
 			</div>
 			<div class="midpart">
-				<h3> Room No 2</h3>
+				<h3>Hotel 2</h3>
 				<p>large rooms with three beds</p>
 				
 			</div>

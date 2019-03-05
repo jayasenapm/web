@@ -16,19 +16,19 @@
 
         <div class="row">
             <div class="col-sm-6 col-md-4 cab">
-                <a class="lightbox" href="../images/1.jpg">
-                    <img src="../images/1.jpg" alt="Park">
+                <a class="lightbox" href="../images/gal1.jpg">
+                    <img src="../images/gal1.jpg" alt="Park">
                 </a>
             </div>
             <div class="col-sm-6 col-md-4 cab">
-                <a class="lightbox" href="../images/2.jpg">
-                    <img src="../images/2.jpg" alt="Bridge">
+                <a class="lightbox" href="../images/gal2.jpg">
+                    <img src="../images/gal2.jpg" alt="Bridge">
                 </a>
             </div>
            
             <div class="col-sm-6 col-md-4 cab">
-                <a class="lightbox" href="../images/6.jpg">
-                    <img src="../images/6.jpg" alt="Traffic">
+                <a class="lightbox" href="../images/gal3.jpg">
+                    <img src="../images/gal3.jpg" alt="Traffic">
                 </a>
             </div>
             <div class="col-sm-6 col-md-4 cab">

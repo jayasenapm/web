@@ -25,31 +25,32 @@
   </div>
   <div class="col-md-4 address">
     <b>Customer service:</b> <br />
-    Phone: +94 773978000<br />
-    E-mail: <a href="mailto:support@mysite.com">samanpriyadarshana126@gmail.com</a><br />
+    Phone: +94 55 2230959<br />
+    E-mail: <a href="mailto:support@mysite.com">soranathotaps@gmail.com</a><br />
     <br /><br />
-    <b>Ella Homestay:</b><br />
+    <b>Sornathota Pradeshiya Sabha:</b><br />
    
-    Gotuwala<br />
-    Ella<br />
-    Phone: +94 077 39788000,71 2958000,72 2978000<br />
-    <a href="samanpriyadarshana126@gmail.com">samanpriyadarshana126@gmail.com</a><br />
+   Dunhinda<br />
+    Sornathota<br />
+    Sri Lanka <br/>
+    Phone: +94 55 2230959<br />
+    <a href="samanpriyadarshana126@gmail.com">soranathotaps@gmail.com</a><br />
 
 
     <br /><br />
-    <b>Pasindu Cab Service:</b><br />
+    <b></b><br />
     
-    25/F.168 Queen<br />
-   Gotuwela,Ella<br />
-     Phone: +94 077 39788000,71 2958000,72 2978000<br />
-    <a href="samanpriyadarshana126@gmail.com">samanpriyadarshana126@gmail.com</a><br />
+    <br />
+   <br />
+     <br />
+    <a href="samanpriyadarshana126@gmail.com"></a><br />
 
 
   </div>
 </div>
 <div class="col-md-12">
   <div class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15844.843690152977!2d81.038592274657!3d6.86530892062021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae465955bc09a25%3A0xbdfadcdadec487fb!2sElla!5e0!3m2!1sen!2slk!4v1551313328193" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.93383160655!2d81.06121591402137!3d7.0170639949313305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae489e55bf8ba83%3A0xc8cde606468aa688!2sDunhinda+Falls!5e0!3m2!1sen!2slk!4v1551776264565" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
 </div>
 </div>
