@@ -32,4 +32,8 @@ class HomeControlooer extends Controller
     public function cab(){
         return view('findcabe');
     }
+     //saba
+    public function saba(){
+        return view('saba');
+    }
 }

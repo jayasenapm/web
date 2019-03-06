@@ -9,9 +9,9 @@
 
 <div class="container gallery-container">
 
-    <h1>Pasindu Cabs</h1>
+    <h1>Find Cabs</h1>
 
-    <p class="page-description text-center">Welcome to the official website of Pasindu Cabs, If you require a reliable, cost effective and comfortable cab taxi service provider in Ella, then Kangaroo Cabs is your first choice among the taxi service providers in the city. We at Pasindu Cabs guarantee the provision of exceptional quality of service together with the most exclusive rates for Airport Transfers and Tour packages within Sri Lanka. </p>
+    <p class="page-description text-center">Welcome to the official website of ..., If you require a reliable, cost effective and comfortable cab taxi service provider in Ella, then Kangaroo Cabs is your first choice among the taxi service providers in the city. We at Pasindu Cabs guarantee the provision of exceptional quality of service together with the most exclusive rates for Airport Transfers and Tour packages within Sri Lanka. </p>
     
     <div class="tz-gallery">
 

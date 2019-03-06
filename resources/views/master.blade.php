@@ -29,6 +29,7 @@
   <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
   <a href="{{ URL('/') }}">HOME</a>
+  <a href="{{ URL('/saba') }}">PRADESHIYA SABHA</a>
   <a href="{{ URL('/rooms') }}">HOTELS</a>
   <a href="{{ URL('/gallery') }}">GALLERY</a>
   <a href="{{ URL('/cab') }}">FIND CAB</a>
